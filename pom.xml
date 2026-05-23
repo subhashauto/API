@@ -76,6 +76,11 @@
             <configuration>
                 <source>11</source>
                 <target>11</target>
+                <suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<parallel>methods</parallel>
+					<threadCount>2</threadCount>
             </configuration>
         </plugin>
     </plugins>
