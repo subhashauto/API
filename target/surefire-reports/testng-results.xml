@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-23T13:03:20 IST" name="Surefire suite" finished-at="2026-05-23T13:03:25 IST" duration-ms="4879">
+  <suite started-at="2026-05-25T10:41:59 IST" name="Surefire suite" finished-at="2026-05-25T10:42:04 IST" duration-ms="5156">
     <groups>
     </groups>
-    <test started-at="2026-05-23T13:03:20 IST" name="Surefire test" finished-at="2026-05-23T13:03:25 IST" duration-ms="4879">
+    <test started-at="2026-05-25T10:41:59 IST" name="Surefire test" finished-at="2026-05-25T10:42:04 IST" duration-ms="5156">
       <class name="api.test.UserTests">
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@33990a0c]" started-at="2026-05-23T13:03:20 IST" name="setupData" finished-at="2026-05-23T13:03:20 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@38c5cc4c]" started-at="2026-05-25T10:41:59 IST" name="setupData" finished-at="2026-05-25T10:41:59 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testGet()[pri:0, instance:api.test.UserTests@33990a0c]" started-at="2026-05-23T13:03:20 IST" name="testGet" finished-at="2026-05-23T13:03:23 IST" duration-ms="2986" status="FAIL">
+        <test-method signature="testGet()[pri:0, instance:api.test.UserTests@38c5cc4c]" started-at="2026-05-25T10:41:59 IST" name="testGet" finished-at="2026-05-25T10:42:02 IST" duration-ms="3074" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [200] but found [404]]]>
@@ -25,9 +25,11 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:1419)
 at org.testng.Assert.assertEquals(Assert.java:1383)
 at org.testng.Assert.assertEquals(Assert.java:1429)
-at api.test.UserTests.testGet(UserTests.java:44)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at api.test.UserTests.testGet(UserTests.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -36,7 +38,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -63,11 +65,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
-        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@33990a0c]" started-at="2026-05-23T13:03:23 IST" name="setupData" finished-at="2026-05-23T13:03:23 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.UserTests@38c5cc4c]" started-at="2026-05-25T10:42:02 IST" name="setupData" finished-at="2026-05-25T10:42:02 IST" duration-ms="46" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupData -->
-        <test-method signature="testPost()[pri:0, instance:api.test.UserTests@33990a0c]" started-at="2026-05-23T13:03:23 IST" name="testPost" finished-at="2026-05-23T13:03:25 IST" duration-ms="1670" status="PASS">
+        <test-method signature="testPost()[pri:0, instance:api.test.UserTests@38c5cc4c]" started-at="2026-05-25T10:42:02 IST" name="testPost" finished-at="2026-05-25T10:42:04 IST" duration-ms="1740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->

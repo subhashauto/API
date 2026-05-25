@@ -1,6 +1,7 @@
 package api.test;
 
 import org.testng.Assert;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -10,6 +11,7 @@ import com.github.javafaker.Faker;
 import api.endpoint.UserEndPoints;
 import api.payload.User;
 import io.restassured.response.Response;
+
 
 public class UserTests {
 
